@@ -1,0 +1,57 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.modal-overlay {
+}
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero {
+  max-width: 400px;
+  height: 200px;
+  margin: 200px auto;
+  background-color: rgb(212, 247, 160);
+  border: 1px solid;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+  padding: 20px;
+}
+.btn-modal {
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: transparent;
+  box-shadow: 2px 2px 2px black;
+  cursor: pointer;
+}
+.modal-overlay {
+  display: none;
+  max-width: 400px;
+  height: 200px;
+  margin: 200px auto;
+  background-color: rgb(212, 247, 160);
+  border: 1px solid;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+  padding: 20px;
+}
+.modal-overlay button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: transparent;
+  box-shadow: 2px 2px 2px black;
+  cursor: pointer;
+}
+.open {
+  display: block;
+}
+.close {
+  display: none;
+}
